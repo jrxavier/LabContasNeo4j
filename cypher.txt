@@ -1,18 +1,12 @@
-WITH 'https://github.com/jrxavier/LabContasNeo4j/tree/main/' AS base
+WITH 'https://github.com/jrxavier/LabContasNeo4j/raw/main/' AS base
 WITH base + 'Pessoas.csv' AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
 MERGE (:Pessoa {id: row.id});
 
-WITH 'https://github.com/jrxavier/LabContasNeo4j/main/' AS base
+
+WITH 'https://github.com/jrxavier/LabContasNeo4j/raw/main/' AS base
 WITH base + 'Pessoas-relacionamento.csv' AS uri
 LOAD CSV WITH HEADERS FROM uri AS row
 MATCH (source:User {id: row.src})
 MATCH (destination:User {id: row.dst})
-MERGE (source)-[:row.relationship]->(destination);
-
-https://github.com/jrxavier/LabContasNeo4j/blob/a74dc774e1bc440ba8bb68836b56ccc92e39ffec/Pessoas.csv
-
-
-https://github.com/neo4j-graph-analytics/book/tree/master/data
-https://github.com/neo4j-graph-analytics/book/raw/master/data/
-https://github.com/jrxavier/LabContasNeo4j/raw/main/
+MERGE (source)-[:RELACAO]->(destination);
