@@ -1,0 +1,11 @@
+WITH 'https://github.com/jrxavier/LabContasNeo4j/blob/main/' AS base
+WITH base + 'Pessoas.csv' AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MERGE (:User {id: row.id});
+
+WITH 'https://github.com/jrxavier/LabContasNeo4j/main/' AS base
+WITH base + 'Pessoas-relacionamento.csv' AS uri
+LOAD CSV WITH HEADERS FROM uri AS row
+MATCH (source:User {id: row.src})
+MATCH (destination:User {id: row.dst})
+MERGE (source)-[:row.relationship]->(destination);
