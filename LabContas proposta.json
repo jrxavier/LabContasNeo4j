@@ -1,0 +1,489 @@
+{
+  "style": {
+    "font-family": "sans-serif",
+    "background-color": "#ffffff",
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "node-margin": 2,
+    "outside-position": "auto",
+    "node-icon-image": "",
+    "node-background-image": "",
+    "icon-position": "inside",
+    "icon-size": 64,
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-display": "pill",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "relationship-icon-image": "",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 16,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-alignment": "colon",
+    "property-color": "#000000",
+    "property-font-size": 16,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -167.92716418036514,
+        "y": -156.6058954673503
+      },
+      "caption": "",
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Mirela Lannoca"
+      },
+      "style": {
+        "node-color": "#68ccca"
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": -440.94390247519306,
+        "y": -270.9774452534296
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Aureo Pavan"
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -414.3258106297516,
+        "y": -40.14557750614672
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Maria Aparecida"
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": -240.5,
+        "y": 72.69999694824219
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Fabio Luis"
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 24.784146634172117,
+        "y": 36.10541534718692
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#fe9200"
+      },
+      "labels": [
+        "Endereço"
+      ],
+      "properties": {
+        "tipo": "Rua",
+        "logradouro": "Campos Sales"
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": 261.47747335142594,
+        "y": -19.240592284291722
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#0c797d"
+      },
+      "labels": [
+        "Municipio"
+      ],
+      "properties": {
+        "nome": "Rio de Janeiro"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 314.848261326247,
+        "y": -213.3000030517578
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#fb9e00"
+      },
+      "labels": [
+        "Endereço"
+      ],
+      "properties": {
+        "tipo": "Avenida",
+        "logradouro": "Marques de Abrantes"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 88.42073047104827,
+        "y": -304.60842145053766
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n8",
+      "position": {
+        "x": -136.03975827239944,
+        "y": -427.26895533362574
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "n9",
+      "position": {
+        "x": 157.15222977813173,
+        "y": -621.0697953378914
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Maria Aparecida"
+      }
+    },
+    {
+      "id": "n10",
+      "position": {
+        "x": 350.95306978239734,
+        "y": -427.26895533362574
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "José Pereira"
+      }
+    },
+    {
+      "id": "n11",
+      "position": {
+        "x": 425.2005130313779,
+        "y": -678.233149138254
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {
+        "nome": "Odebrech SA"
+      }
+    },
+    {
+      "id": "n12",
+      "position": {
+        "x": 635.9133407368392,
+        "y": -467.5203214327926
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {
+        "nome": "Odebrech Imobiliarias"
+      }
+    },
+    {
+      "id": "n13",
+      "position": {
+        "x": 982.4453928546395,
+        "y": -499.8688155324885
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {
+        "nome": "Consorcio Sonata Pinheiros"
+      }
+    },
+    {
+      "id": "n14",
+      "position": {
+        "x": 683.2699681000612,
+        "y": -827.2296184917784
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#68ccca"
+      },
+      "labels": [
+        "Pessoa"
+      ],
+      "properties": {
+        "nome": "Emilio Odebrech"
+      }
+    },
+    {
+      "id": "n15",
+      "position": {
+        "x": 982.4453928546395,
+        "y": -705.388199325898
+      },
+      "caption": "",
+      "style": {
+        "node-color": "#f44e3b"
+      },
+      "labels": [
+        "Empresa"
+      ],
+      "properties": {
+        "nome": "Odbinv SA"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "Parente",
+      "style": {},
+      "properties": {
+        "tipo": "Tio"
+      },
+      "fromId": "n1",
+      "toId": "n0"
+    },
+    {
+      "id": "n1",
+      "type": "Parente",
+      "style": {},
+      "properties": {
+        "tipo": "Mãe"
+      },
+      "fromId": "n2",
+      "toId": "n0"
+    },
+    {
+      "id": "n2",
+      "type": "Parente",
+      "style": {},
+      "properties": {
+        "tipo": "Marido"
+      },
+      "fromId": "n3",
+      "toId": "n0"
+    },
+    {
+      "id": "n3",
+      "type": "Habita",
+      "style": {},
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n4"
+    },
+    {
+      "id": "n4",
+      "type": "Habita",
+      "style": {},
+      "properties": {},
+      "fromId": "n3",
+      "toId": "n4"
+    },
+    {
+      "id": "n5",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n5"
+    },
+    {
+      "id": "n6",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "toId": "n5",
+      "fromId": "n6"
+    },
+    {
+      "id": "n7",
+      "type": "Funcao",
+      "style": {},
+      "properties": {
+        "inicio": "10/01/2000"
+      },
+      "fromId": "n0",
+      "toId": "n7"
+    },
+    {
+      "id": "n8",
+      "type": "Funcao",
+      "style": {},
+      "properties": {
+        "inicio": "01/01/1990",
+        "fim": "30/12/1999"
+      },
+      "fromId": "n0",
+      "toId": "n8"
+    },
+    {
+      "id": "n9",
+      "type": "Funcao",
+      "style": {},
+      "properties": {
+        "inicio": "15/12/1995",
+        "fim": "01/03/2000"
+      },
+      "fromId": "n9",
+      "toId": "n8"
+    },
+    {
+      "id": "n10",
+      "type": "Parente",
+      "style": {},
+      "properties": {
+        "tipo": "Esposa"
+      },
+      "fromId": "n9",
+      "toId": "n10"
+    },
+    {
+      "id": "n11",
+      "type": "",
+      "style": {},
+      "properties": {},
+      "fromId": "n10",
+      "toId": "n6"
+    },
+    {
+      "id": "n12",
+      "type": "Relacao",
+      "style": {},
+      "properties": {
+        "tipo": "Acionista"
+      },
+      "fromId": "n9",
+      "toId": "n11"
+    },
+    {
+      "id": "n13",
+      "type": "Relacao",
+      "style": {},
+      "properties": {
+        "tipo": "Socio"
+      },
+      "fromId": "n11",
+      "toId": "n12"
+    },
+    {
+      "id": "n14",
+      "type": "Relacao",
+      "style": {},
+      "properties": {
+        "tipo": "Sociedade Consorciada"
+      },
+      "fromId": "n12",
+      "toId": "n13"
+    },
+    {
+      "id": "n15",
+      "type": "Relacao",
+      "style": {},
+      "properties": {
+        "tipo": "Presidente"
+      },
+      "fromId": "n14",
+      "toId": "n11"
+    },
+    {
+      "id": "n16",
+      "type": "Relacao",
+      "style": {},
+      "properties": {
+        "tipo": "Diretor"
+      },
+      "fromId": "n14",
+      "toId": "n15"
+    }
+  ]
+}
